@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/907623154108216011/da83710e365a45108907dbf707baaf65/artifacts
+end_time: 1754336154760
+entry_point_name: ''
+experiment_id: '907623154108216011'
+lifecycle_stage: active
+run_id: da83710e365a45108907dbf707baaf65
+run_name: Poisoning_Level_10%
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754336151651
+status: 3
+tags: []
+user_id: jupyter
