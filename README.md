@@ -54,7 +54,7 @@ This side‑by‑side comparison clearly illustrates how poisoning levels of `0�
 | `scikit‑learn` | 1.2.0       |
 | `mlflow`       | 2.0.0       |
 
-> **Tip:** A ready‑made `requirements.txt` is provided for convenience.
+
 
 ---
 
