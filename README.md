@@ -66,7 +66,7 @@ This side‑by‑side comparison clearly illustrates how poisoning levels of `0�
    The script assumes a remote server is reachable at:
 
    ```
-   http://34.9.131.233:8100
+   http://0.0.0.0:8100
    ```
 
    Change the URI inside `main()` if you have a different endpoint:
@@ -78,7 +78,7 @@ This side‑by‑side comparison clearly illustrates how poisoning levels of `0�
 2. **Run the experiment**
 
    ```bash
-   python iris_poisoning_experiment.py
+   python train.py
    ```
 
    The script will:
@@ -97,7 +97,7 @@ This side‑by‑side comparison clearly illustrates how poisoning levels of `0�
    Launch the MLflow UI:
 
    ```bash
-   mlflow ui --host 0.0.0.0 --port 8100
+   mlflow server --host 0.0.0.0 --port 8100
    ```
 
    Compare runs by sorting on `validation_accuracy` or `test_accuracy` and drill into the stored artifacts.
